@@ -32,6 +32,7 @@ double calc(char operand, double x, double y)
                 result *= x;
             }
             
+            return result;
             break;
     }
 }
