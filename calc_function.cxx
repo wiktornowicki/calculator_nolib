@@ -2,6 +2,9 @@ double calc(char operand, double x, double y)
 {
     switch(operand)
     {
+        /*
+        using the switch instre rather than if/else just because it's more comfortable
+        */
         case '+':
             return (x + y);
             break;
