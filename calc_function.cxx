@@ -27,7 +27,7 @@ double calc(char operand, double x, double y)
         case '^':
             double result = 1;
 
-            for (int32 i = 0; i < y; i++)
+            for (int i = 0; i < y; i++)
             {
                 result *= x;
             }
